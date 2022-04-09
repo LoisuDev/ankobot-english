@@ -30,22 +30,14 @@ Run the following commands:
 
 Open the *main.js* file with your code editor.
 
-Search for these two lines:
+Search for that line:
 ```javascript
-const prefix = PROCESS.ENV.PREFIX;
-bot.login(PROCESS.ENV.BOT_TOKEN);
+bot.login("YOUR_TOKEN");
 ```
 
-Replace the `PROCESS.ENV.PREFIX` with `"%"`. This will be the prefix of the bot. I do not advise you to set another prefix, because the bot configuration displays that prefix, like in the help command.
 
-Replace the `PROCESS.ENV.BOT_TOKEN` with the token of your bot. Don't forget that you need to quote it! Otherwise it won't work.
+Replace the `YOUR_TOKEN` with the token of your bot. Don't forget that you need to keep it quoted! Otherwise it won't work.
 
-Your two lines should look like this now:
-
-```javascript
-const prefix = "%";
-bot.login("your_token");
-```
 
 Then save the file by pressing `CTRL+S`
 
@@ -60,7 +52,7 @@ Anko est en ligne.
 ```
 Which means "Anko is online" in French.
 
-If you have any issues, please come in my Discord Server, Loisu Tea Time: https://dsc.gg/loisu
+If you have any issues, please contact me on Discord (Loisu#4816). Please be concise when DMing me.
 
 ### Enjoy!
 
